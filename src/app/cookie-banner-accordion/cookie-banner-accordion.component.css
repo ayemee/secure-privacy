@@ -1,0 +1,54 @@
+.btn:focus, .btn.focus {
+    box-shadow: none;
+}
+
+span.m-0 {
+    font-weight: bold;
+    position: absolute;
+    left: 70px;
+    top: 12px;
+}
+
+.table {
+    margin-top: 15px;
+}
+
+.table thead th, .table td {
+    border: none;
+}
+
+a {
+    color: #000000;
+}
+
+.accordion-container {
+    background: rgb(230,226,226);
+    background: linear-gradient(0deg, rgba(230,226,226,1) 0%, rgba(255,255,255,1) 81%, rgba(168,168,168,1) 100%);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+:host ::ng-deep .accordion > .card > .card-header{
+    border: 1px solid rgba(0,0,0,.125);
+    margin-bottom: 0px;
+}
+
+:host ::ng-deep .card {
+    border: none;
+    background-color: #ffffff;
+    margin-bottom: 10px;
+    border-radius: 5px !important;
+
+}
+
+:host ::ng-deep .card:first-child {
+    margin-top: 50px;
+}
+
+:host ::ng-deep .card:last-child {
+    margin-bottom: 40px;
+}
+
+:host ::ng-deep .card-body {
+    border: 1px solid rgba(0,0,0,.125);
+}

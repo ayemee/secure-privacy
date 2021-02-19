@@ -1,0 +1,27 @@
+h3 {
+    margin-bottom: 30px;
+}
+
+.link-privacy-policy {
+    color: #000000;
+    font-weight: bold;
+}
+
+.button-group {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.button-group div {
+    margin-bottom: 30px;
+}
+
+.btn-success {
+    margin-right: 15px;
+}
+
+.txt-customize {
+    position: absolute;
+    top: 7.5px;
+    right: 20px;
+}

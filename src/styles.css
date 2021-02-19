@@ -1,1 +1,29 @@
 /* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.css';
+
+
+body {
+    background-color: gray;
+}
+
+.svg-icon {
+    width: 1.5em;
+    height: 1.5em;
+}
+
+.svg-icon path,
+.svg-icon polygon,
+.svg-icon rect {
+    fill: #28a745;
+}
+
+.svg-icon circle {
+    stroke: #28a745;
+    stroke-width: 1;
+}
+
+.svg-close {
+    position: absolute;
+    right: 15px;
+    top: -35px;
+}
