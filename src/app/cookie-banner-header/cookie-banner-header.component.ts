@@ -9,7 +9,7 @@ export class CookieBannerHeaderComponent implements OnInit {
 
   constructor() { }
 
-  public showAccordions: boolean = true;
+  public showAccordions: boolean = false;
 
   ngOnInit(): void {
   }
